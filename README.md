@@ -13,7 +13,8 @@ Use [Prezto](https://github.com/sorin-ionescu/prezto) to manage ZSH.
   4. To preview the theme, type `prompt -p rog`.
   5. Load the theme in *~/.zpreztorc* then open a new Zsh terminal window or tab.
 
+----
+
 
 Alternate color scheme `prompt_rog2_setup`:
-
 ![Screenshot](http://i.imgur.com/QUPfLfP.png)
