@@ -1,5 +1,6 @@
 # rogwie
-My terminal theme homage to David Bowie
+My terminal theme homage to David Bowie.
+Show `git` info and `Node.js` version.
 
 ##
 
