@@ -7,7 +7,7 @@ Show `git` info and `Node.js` version.
 
 Use [Prezto](https://github.com/sorin-ionescu/prezto) to manage ZSH.
 
-  1. Load `rog.terminal` and select the color scheme from your terminal preferences.
+  1. Load `rog.itermcolors` and select the color scheme from your terminal preferences.
   2. Copy `prompt_rog_setup` in your prezto instalation folder `modules/prompt/functions`
   3. For a list of themes, type `prompt -l`.
   4. To preview the theme, type `prompt -p rog`.
