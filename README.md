@@ -1,11 +1,9 @@
 # rogwie
 My terminal theme homage to David Bowie.
+
 Show `git` info and `Node.js` version.
 
-##
-
 ![Screenshot](http://i.imgur.com/3HI5UcK.png)
-
 
 Use [Prezto](https://github.com/sorin-ionescu/prezto) to manage ZSH.
 
