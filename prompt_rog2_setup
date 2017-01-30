@@ -90,8 +90,14 @@ function prompt_rog_setup {
   zstyle ':prezto:module:node:info:version' format ' %v'
 
   # Define prompts.
-  PROMPT="${_prompt_rog_colors[7]}%n%f@${_prompt_rog_colors[6]}%m%f "'%F${_prompt_rog_colors[3]}${_prompt_rog_pwd}%f${editor_info[keymap]} '
-  RPROMPT='${git_info:+${(e)git_info[prompt]} } ${_prompt_rog_colors[5]}⬡%f ${node_info[version]}'
+  PROMPT="${_prompt_rog_colors[7]}%n%f@${_prompt_rog_colors[6]}%m%f ${_prompt_rog_colors[3]}%~%f"'  %F${_prompt_rog_colors[7]}${git_info:+‣ ${(e)git_info[prompt]}} 
+%B${user_symbol}%f${editor_info[keymap]} '
+  # Short pwd
+  # PROMPT="${_prompt_rog_colors[7]}%n%f@${_prompt_rog_colors[6]}%m%f "'%F${_prompt_rog_colors[3]}${_prompt_rog_pwd} %F${_prompt_rog_colors[7]}${git_info:+‣ ${(e)git_info[prompt]}} 
+  # %B${user_symbol}%f${editor_info[keymap]} '
+  RPROMPT='${_prompt_rog_colors[5]}⬡%f ${node_info[version]}'
+  # Git info on the right
+  # RPROMPT='${git_info:+${(e)git_info[prompt]} } ${_prompt_rog_colors[5]}⬡%f ${node_info[version]}'
 }
 
 prompt_rog_setup "$@"
